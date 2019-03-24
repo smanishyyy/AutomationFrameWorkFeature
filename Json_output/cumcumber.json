@@ -1,0 +1,43 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "ValidationOfStaticCharacterWise",
+        "description": "",
+        "id": "test-facbook-home-page-funtionalaity;validationofstaticcharacterwise",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Launch the facebook url22",
+            "match": {
+              "location": "Tc03_Tagging.Launch_the_facebook_url22()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@smoketest"
+          },
+          {
+            "line": 8,
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "test facbook home page funtionalaity",
+    "description": "",
+    "id": "test-facbook-home-page-funtionalaity",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/tagging.feature"
+  }
+]

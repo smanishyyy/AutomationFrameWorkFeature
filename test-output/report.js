@@ -1,34 +1,38 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("test.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/Features/tagging.feature");
 formatter.feature({
   "line": 1,
-  "name": "Login Feature",
-  "description": "Verify the all static text and element of facebook page",
-  "id": "login-feature",
+  "name": "test facbook home page funtionalaity",
+  "description": "",
+  "id": "test-facbook-home-page-funtionalaity",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "Validation of static text and elemet of facebook page",
+  "line": 9,
+  "name": "ValidationOfStaticCharacterWise",
   "description": "",
-  "id": "login-feature;validation-of-static-text-and-elemet-of-facebook-page",
+  "id": "test-facbook-home-page-funtionalaity;validationofstaticcharacterwise",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 8,
+      "name": "@smoketest"
+    },
+    {
+      "line": 8,
+      "name": "@E2E"
+    }
+  ]
 });
 formatter.step({
-  "line": 5,
-  "name": "Launch the facebook url",
+  "line": 10,
+  "name": "Launch the facebook url22",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": "Verify if all the elemnet and text is presrnt on the login page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "TC01_FacebookHomePageVerify.before()"
+  "location": "Tc03_Tagging.Launch_the_facebook_url22()"
+});
+formatter.result({
+  "status": "skipped"
+});
 });

@@ -1,6 +1,8 @@
 Feature: Login Feature
   Verify the all static text and element of facebook page
 
+
+
  Scenario: Validation of static text and elemet of facebook page
 Given Launch the facebook url
  When Verify if all the elemnet and text is presrnt on the login page

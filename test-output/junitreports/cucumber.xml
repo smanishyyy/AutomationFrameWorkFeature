@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="test facbook home page funtionalaity" name="ValidationOfStaticCharacterWise" time="0">
+<system-out><![CDATA[Given Launch the facebook url22.............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
