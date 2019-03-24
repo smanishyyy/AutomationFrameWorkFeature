@@ -1,6 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-<testcase classname="test facbook home page funtionalaity" name="ValidationOfStaticCharacterWise" time="0">
-<system-out><![CDATA[Given Launch the facebook url22.............................................skipped
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.217539">
+<testcase classname="test tagged hooks" name="This is first test" time="0.207589">
+<system-out><![CDATA[Given this is test first step...............................................passed
+When this is test second step...............................................passed
+Then this is test third step................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="test tagged hooks" name="This is Second test" time="0.007321">
+<system-out><![CDATA[Given this is test first step...............................................passed
+When this is test second step...............................................passed
+Then this is test third step................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="test tagged hooks" name="This is Third test" time="0.002629">
+<system-out><![CDATA[Given this is test first step...............................................passed
+When this is test second step...............................................passed
+Then this is test third step................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

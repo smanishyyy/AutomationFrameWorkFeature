@@ -3,41 +3,340 @@
     "line": 1,
     "elements": [
       {
-        "line": 9,
-        "name": "ValidationOfStaticCharacterWise",
+        "before": [
+          {
+            "result": {
+              "duration": 418645,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91940,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.beforefirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is first test",
         "description": "",
-        "id": "test-facbook-home-page-funtionalaity;validationofstaticcharacterwise",
+        "id": "test-tagged-hooks;this-is-first-test",
+        "after": [
+          {
+            "result": {
+              "duration": 79539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.Afterfirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 93650,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 97071,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 206471596,
+              "status": "passed"
             },
-            "line": 10,
-            "name": "Launch the facebook url22",
+            "line": 5,
+            "name": "this is test first step",
             "match": {
-              "location": "Tc03_Tagging.Launch_the_facebook_url22()"
+              "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116314,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "this is test second step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95360,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "this is test third step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 8,
-            "name": "@smoketest"
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 413513,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.setup()"
+            }
           },
           {
-            "line": 8,
-            "name": "@E2E"
+            "result": {
+              "duration": 73980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 112465,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.beforeSecond()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This is Second test",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-second-test",
+        "after": [
+          {
+            "result": {
+              "duration": 119736,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.AfterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 178747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5989320,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101348,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "this is test first step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75263,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "this is test second step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256576,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "this is test third step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 128715,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 63716,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.beforeThird()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "This is Third test",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-third-test",
+        "after": [
+          {
+            "result": {
+              "duration": 123156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.AfterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67137,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1828953,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172333,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "this is test first step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91939,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "this is test second step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79966,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "this is test third step",
+            "match": {
+              "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "test facbook home page funtionalaity",
+    "name": "test tagged hooks",
     "description": "",
-    "id": "test-facbook-home-page-funtionalaity",
+    "id": "test-tagged-hooks",
     "keyword": "Feature",
-    "uri": "src/test/java/Features/tagging.feature"
+    "uri": "src/test/java/Features/taggedhook.feature"
   }
 ]
