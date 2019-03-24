@@ -1,231 +1,177 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/Features/taggedhook.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/Features/test.feature");
 formatter.feature({
   "line": 1,
-  "name": "test tagged hooks",
-  "description": "",
-  "id": "test-tagged-hooks",
+  "name": "Login Feature",
+  "description": "Verify the all static text and element of facebook page",
+  "id": "login-feature",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 418645,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 124439,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 91940,
-  "status": "passed"
-});
 formatter.scenario({
-  "line": 4,
-  "name": "This is first test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-first-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@First"
-    }
-  ]
-});
-formatter.step({
-  "line": 5,
-  "name": "this is test first step",
-  "keyword": "Given "
-});
-formatter.step({
   "line": 6,
-  "name": "this is test second step",
-  "keyword": "When "
+  "name": "Validation of static text and elemet of facebook page",
+  "description": "",
+  "id": "login-feature;validation-of-static-text-and-elemet-of-facebook-page",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 7,
-  "name": "this is test third step",
+  "name": "Launch the facebook url",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "Verify if all the elemnet and text is presrnt on the login page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
+  "location": "TC01_FacebookHomePageVerify.before()"
 });
 formatter.result({
-  "duration": 206471596,
+  "duration": 9633468264,
   "status": "passed"
 });
 formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
+  "location": "TC01_FacebookHomePageVerify.main()"
 });
 formatter.result({
-  "duration": 116314,
+  "duration": 24231078009,
   "status": "passed"
 });
 formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+  "location": "TC01_FacebookHomePageVerify.after()"
 });
 formatter.result({
-  "duration": 95360,
+  "duration": 1462255227,
   "status": "passed"
 });
 formatter.after({
-  "duration": 79539,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 93650,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 97071,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 413513,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 73980,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 112465,
+  "duration": 574300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "This is Second test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-second-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@Second"
-    }
-  ]
-});
-formatter.step({
   "line": 11,
-  "name": "this is test first step",
-  "keyword": "Given "
+  "name": "ValidationOfStaticCharacterWise",
+  "description": "",
+  "id": "login-feature;validationofstaticcharacterwise",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 12,
-  "name": "this is test second step",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "this is test third step",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
-});
-formatter.result({
-  "duration": 101348,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
-});
-formatter.result({
-  "duration": 75263,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
-});
-formatter.result({
-  "duration": 256576,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 119736,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 178747,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 5989320,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 128715,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 63716,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 72697,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "This is Third test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-third-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 15,
-      "name": "@Third"
-    }
-  ]
-});
-formatter.step({
-  "line": 17,
-  "name": "this is test first step",
+  "name": "Launch the facebook url2",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
-  "name": "this is test second step",
+  "line": 13,
+  "name": "check if disclaimer birthday and bottom text element is available",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
-  "name": "this is test third step",
+  "line": 14,
+  "name": "Pass the input text of disclaimer",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "verify if disclaimer text on application is same as passed in input",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 16,
+  "name": "Pass the input text of birthday",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "verify if birthday text on application is same as passed in input",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
+  "name": "Pass the input text of bottom text",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "verify if bottom text on application is same as passed in input",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 20,
+  "name": "close the browserr",
+  "keyword": "And "
+});
 formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
+  "location": "TC02_ValidationOfStaticCharacterWise.before()"
 });
 formatter.result({
-  "duration": 172333,
+  "duration": 6055377474,
   "status": "passed"
 });
 formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
+  "location": "TC02_ValidationOfStaticCharacterWise.main()"
 });
 formatter.result({
-  "duration": 91939,
+  "duration": 20265403918,
   "status": "passed"
 });
 formatter.match({
-  "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+  "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_disclaimer()"
 });
 formatter.result({
-  "duration": 79966,
+  "duration": 603379,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TC02_ValidationOfStaticCharacterWise.Verify_disclaimer_text()"
+});
+formatter.result({
+  "duration": 10064970819,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_birthday()"
+});
+formatter.result({
+  "duration": 71414,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TC02_ValidationOfStaticCharacterWise.Verify_birthday_text()"
+});
+formatter.result({
+  "duration": 10109227897,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_bottom()"
+});
+formatter.result({
+  "duration": 115886,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TC02_ValidationOfStaticCharacterWise.Verify_bbottom_text()"
+});
+formatter.result({
+  "duration": 10114615976,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TC02_ValidationOfStaticCharacterWise.after()"
+});
+formatter.result({
+  "duration": 3167463617,
   "status": "passed"
 });
 formatter.after({
-  "duration": 123156,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 67137,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1828953,
+  "duration": 107334,
   "status": "passed"
 });
 });

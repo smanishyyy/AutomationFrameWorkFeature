@@ -97,6 +97,7 @@ public class TC02_ValidationOfStaticCharacterWise {
 	public void before() {
 		driver = LaunchBrowser.chromeBrowser();
 		Reporter.log("Useron the home page");
+
 	}
 
 	@AfterMethod

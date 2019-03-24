@@ -17,7 +17,6 @@ public class LaunchBrowser {
 			System.setProperty("webdriver.chrome.driver",
 					"D:/Software/eclipse-java-luna-SR2-win32-x86_64/eclipse/chromedriver.exe");
 			driver = new ChromeDriver();
-			driver.manage().window().maximize();
 
 			// Open ToolsQA web site String appUrl = "https://www.facebook.com/";
 			driver.get("https://www.facebook.com");

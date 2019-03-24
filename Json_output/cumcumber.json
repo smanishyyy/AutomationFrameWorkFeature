@@ -3,65 +3,18 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 418645,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 124439,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.setup1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 91940,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.beforefirst()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "This is first test",
+        "line": 6,
+        "name": "Validation of static text and elemet of facebook page",
         "description": "",
-        "id": "test-tagged-hooks;this-is-first-test",
+        "id": "login-feature;validation-of-static-text-and-elemet-of-facebook-page",
         "after": [
           {
             "result": {
-              "duration": 79539,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.Afterfirst()"
-            }
-          },
-          {
-            "result": {
-              "duration": 93650,
+              "duration": 574300,
               "status": "passed"
             },
             "match": {
               "location": "TC04_taggedhookstepdef.tearDown2()"
-            }
-          },
-          {
-            "result": {
-              "duration": 97071,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.tearDown()"
             }
           }
         ],
@@ -70,108 +23,55 @@
         "steps": [
           {
             "result": {
-              "duration": 206471596,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "this is test first step",
-            "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 116314,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "this is test second step",
-            "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 95360,
+              "duration": 9633468264,
               "status": "passed"
             },
             "line": 7,
-            "name": "this is test third step",
+            "name": "Launch the facebook url",
             "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+              "location": "TC01_FacebookHomePageVerify.before()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24231078009,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify if all the elemnet and text is presrnt on the login page",
+            "match": {
+              "location": "TC01_FacebookHomePageVerify.main()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1462255227,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "TC01_FacebookHomePageVerify.after()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@First"
           }
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 413513,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 73980,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.setup1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 112465,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.beforeSecond()"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "This is Second test",
+        "line": 11,
+        "name": "ValidationOfStaticCharacterWise",
         "description": "",
-        "id": "test-tagged-hooks;this-is-second-test",
+        "id": "login-feature;validationofstaticcharacterwise",
         "after": [
           {
             "result": {
-              "duration": 119736,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.AfterSecond()"
-            }
-          },
-          {
-            "result": {
-              "duration": 178747,
+              "duration": 107334,
               "status": "passed"
             },
             "match": {
               "location": "TC04_taggedhookstepdef.tearDown2()"
-            }
-          },
-          {
-            "result": {
-              "duration": 5989320,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.tearDown()"
             }
           }
         ],
@@ -180,163 +80,119 @@
         "steps": [
           {
             "result": {
-              "duration": 101348,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "this is test first step",
-            "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 75263,
+              "duration": 6055377474,
               "status": "passed"
             },
             "line": 12,
-            "name": "this is test second step",
+            "name": "Launch the facebook url2",
             "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 256576,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "this is test third step",
-            "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Second"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 128715,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 63716,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.setup1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 72697,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.beforeThird()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "This is Third test",
-        "description": "",
-        "id": "test-tagged-hooks;this-is-third-test",
-        "after": [
-          {
-            "result": {
-              "duration": 123156,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.AfterThird()"
-            }
-          },
-          {
-            "result": {
-              "duration": 67137,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.tearDown2()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1828953,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TC04_taggedhookstepdef.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 172333,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "this is test first step",
-            "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_first_step()"
+              "location": "TC02_ValidationOfStaticCharacterWise.before()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 91939,
+              "duration": 20265403918,
               "status": "passed"
             },
-            "line": 18,
-            "name": "this is test second step",
+            "line": 13,
+            "name": "check if disclaimer birthday and bottom text element is available",
             "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_second_step()"
+              "location": "TC02_ValidationOfStaticCharacterWise.main()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 79966,
+              "duration": 603379,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Pass the input text of disclaimer",
+            "match": {
+              "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_disclaimer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10064970819,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify if disclaimer text on application is same as passed in input",
+            "match": {
+              "location": "TC02_ValidationOfStaticCharacterWise.Verify_disclaimer_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71414,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Pass the input text of birthday",
+            "match": {
+              "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_birthday()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10109227897,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify if birthday text on application is same as passed in input",
+            "match": {
+              "location": "TC02_ValidationOfStaticCharacterWise.Verify_birthday_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115886,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Pass the input text of bottom text",
+            "match": {
+              "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10114615976,
               "status": "passed"
             },
             "line": 19,
-            "name": "this is test third step",
+            "name": "verify if bottom text on application is same as passed in input",
             "match": {
-              "location": "TC04_taggedhookstepdef.this_is_test_third_step()"
+              "location": "TC02_ValidationOfStaticCharacterWise.Verify_bbottom_text()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
+          },
           {
-            "line": 15,
-            "name": "@Third"
+            "result": {
+              "duration": 3167463617,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browserr",
+            "match": {
+              "location": "TC02_ValidationOfStaticCharacterWise.after()"
+            },
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "test tagged hooks",
-    "description": "",
-    "id": "test-tagged-hooks",
+    "name": "Login Feature",
+    "description": "Verify the all static text and element of facebook page",
+    "id": "login-feature",
     "keyword": "Feature",
-    "uri": "src/test/java/Features/taggedhook.feature"
+    "uri": "src/test/java/Features/test.feature"
   }
 ]

@@ -10,23 +10,19 @@ public class TC04_taggedhookstepdef {
 
 	// global hooks
 
-	@Before(order = 0)
-	public void setup() {
-		System.out.println("Search ff");
-		System.out.println("Enter url for free crm app");
-	}
-
-	@After(order = 0)
-	public void tearDown() {
-		System.out.println("Close the browser");
-
-	}
-
-	@Before(order = 1)
-	public void setup1() {
-
-		System.out.println("Enter url2 for free crm app");
-	}
+	/*
+	 * @Before(order = 0) public void setup() { System.out.println("Search ff");
+	 * System.out.println("Enter url for free crm app"); }
+	 * 
+	 * @After(order = 0) public void tearDown() {
+	 * System.out.println("Close the browser");
+	 * 
+	 * }
+	 * 
+	 * @Before(order = 1) public void setup1() {
+	 * 
+	 * System.out.println("Enter url2 for free crm app"); }
+	 */
 
 	@After(order = 1)
 	public void tearDown2() {
