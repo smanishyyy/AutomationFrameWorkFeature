@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="128.691574">
+<testcase classname="Login Feature" name="Validation of static text and elemet of facebook page" time="66.800024">
+<system-out><![CDATA[Given Launch the facebook url...............................................passed
+When Verify if all the elemnet and text is presrnt on the login page........passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="ValidationOfStaticCharacterWise" time="61.89155">
+<system-out><![CDATA[Given Launch the facebook url2..............................................passed
+When check if disclaimer birthday and bottom text element is available......passed
+And Pass the input text of disclaimer.......................................passed
+Then verify if disclaimer text on application is same as passed in input....passed
+And Pass the input text of birthday.........................................passed
+Then verify if birthday text on application is same as passed in input......passed
+And Pass the input text of bottom text......................................passed
+Then verify if bottom text on application is same as passed in input........passed
+And close the browserr......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
