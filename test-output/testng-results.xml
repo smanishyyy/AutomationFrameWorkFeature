@@ -1,185 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[
-Disclaimer element is presentt]]>
-    </line>
-    <line>
-      <![CDATA[
-Bottom text presentt
-]]>
-    </line>
-    <line>
-      <![CDATA[
-Bottom text not presentt
-]]>
-    </line>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[Disclaimer text is verified successfully]]>
-    </line>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[birthday text is verified successfully]]>
-    </line>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[Useron the home page]]>
-    </line>
-    <line>
-      <![CDATA[bottom text is verified successfully]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="120512" started-at="2019-03-23T10:50:43Z" finished-at="2019-03-23T10:52:44Z">
+  <suite name="Suite" duration-ms="25465" started-at="2019-03-25T19:51:18Z" finished-at="2019-03-25T19:51:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="120512" started-at="2019-03-23T10:50:43Z" finished-at="2019-03-23T10:52:44Z">
-      <class name="com.facebook.testcase.TC02_ValidationOfStaticCharacterWise">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="11665" started-at="2019-03-23T16:20:43Z" finished-at="2019-03-23T16:20:55Z">
+    <test name="Test" duration-ms="25465" started-at="2019-03-25T19:51:18Z" finished-at="2019-03-25T19:51:44Z">
+      <class name="TestNgConcept.Assert">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNgConcept.Assert@4667ae56]" name="setUp" is-config="true" duration-ms="12586" started-at="2019-03-26T01:21:18Z" finished-at="2019-03-26T01:21:31Z">
           <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="main()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="main" duration-ms="20265" started-at="2019-03-23T16:20:55Z" finished-at="2019-03-23T16:21:15Z">
-          <reporter-output>
-            <line>
-              <![CDATA[
-Disclaimer element is presentt]]>
-            </line>
-            <line>
-              <![CDATA[
-Bottom text presentt
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="googleTitleTest()[pri:0, instance:TestNgConcept.Assert@4667ae56]" name="googleTitleTest" duration-ms="34" started-at="2019-03-26T01:21:31Z" finished-at="2019-03-26T01:21:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[itle is not matched expected [Google123] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: itle is not matched expected [Google123] but found [Google]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at TestNgConcept.Assert.googleTitleTest(Assert.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </line>
-            <line>
-              <![CDATA[
-Bottom text not presentt
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="1235" started-at="2019-03-23T16:21:15Z" finished-at="2019-03-23T16:21:17Z">
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="7049" started-at="2019-03-23T16:21:17Z" finished-at="2019-03-23T16:21:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Pass__input_text_disclaimer()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="Pass__input_text_disclaimer" duration-ms="3" started-at="2019-03-23T16:21:24Z" finished-at="2019-03-23T16:21:24Z">
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNgConcept.Assert@4667ae56]" name="tearDown" is-config="true" duration-ms="1220" started-at="2019-03-26T01:21:31Z" finished-at="2019-03-26T01:21:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Pass__input_text_disclaimer -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="785" started-at="2019-03-23T16:21:24Z" finished-at="2019-03-23T16:21:24Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNgConcept.Assert@4667ae56]" name="setUp" is-config="true" duration-ms="10582" started-at="2019-03-26T01:21:32Z" finished-at="2019-03-26T01:21:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="6401" started-at="2019-03-23T16:21:24Z" finished-at="2019-03-23T16:21:31Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Verify_disclaimer_text()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="Verify_disclaimer_text" duration-ms="10121" started-at="2019-03-23T16:21:31Z" finished-at="2019-03-23T16:21:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Disclaimer text is verified successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Verify_disclaimer_text -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="869" started-at="2019-03-23T16:21:41Z" finished-at="2019-03-23T16:21:42Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:TestNgConcept.Assert@4667ae56]" name="logoTest" duration-ms="125" started-at="2019-03-26T01:21:43Z" finished-at="2019-03-26T01:21:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="12493" started-at="2019-03-23T16:21:42Z" finished-at="2019-03-23T16:21:54Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Pass__input_text_birthday()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="Pass__input_text_birthday" duration-ms="2" started-at="2019-03-23T16:21:54Z" finished-at="2019-03-23T16:21:54Z">
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNgConcept.Assert@4667ae56]" name="tearDown" is-config="true" duration-ms="875" started-at="2019-03-26T01:21:43Z" finished-at="2019-03-26T01:21:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Pass__input_text_birthday -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="817" started-at="2019-03-23T16:21:54Z" finished-at="2019-03-23T16:21:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="7145" started-at="2019-03-23T16:21:55Z" finished-at="2019-03-23T16:22:02Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Verify_birthday_text()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="Verify_birthday_text" duration-ms="10206" started-at="2019-03-23T16:22:02Z" finished-at="2019-03-23T16:22:13Z">
-          <reporter-output>
-            <line>
-              <![CDATA[birthday text is verified successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Verify_birthday_text -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="1031" started-at="2019-03-23T16:22:13Z" finished-at="2019-03-23T16:22:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="11293" started-at="2019-03-23T16:22:14Z" finished-at="2019-03-23T16:22:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Pass__input_text_bottom()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="Pass__input_text_bottom" duration-ms="9" started-at="2019-03-23T16:22:25Z" finished-at="2019-03-23T16:22:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Pass__input_text_bottom -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="825" started-at="2019-03-23T16:22:25Z" finished-at="2019-03-23T16:22:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="before" is-config="true" duration-ms="6984" started-at="2019-03-23T16:22:26Z" finished-at="2019-03-23T16:22:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Useron the home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Verify_bbottom_text()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="Verify_bbottom_text" duration-ms="10211" started-at="2019-03-23T16:22:33Z" finished-at="2019-03-23T16:22:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[bottom text is verified successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Verify_bbottom_text -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.facebook.testcase.TC02_ValidationOfStaticCharacterWise@31ef45e3]" name="after" is-config="true" duration-ms="1053" started-at="2019-03-23T16:22:43Z" finished-at="2019-03-23T16:22:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.facebook.testcase.TC02_ValidationOfStaticCharacterWise -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNgConcept.Assert -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -33,25 +33,25 @@ formatter.match({
   "location": "TC01_FacebookHomePageVerify.before()"
 });
 formatter.result({
-  "duration": 9633468264,
+  "duration": 24620556809,
   "status": "passed"
 });
 formatter.match({
   "location": "TC01_FacebookHomePageVerify.main()"
 });
 formatter.result({
-  "duration": 24231078009,
+  "duration": 24627426270,
   "status": "passed"
 });
 formatter.match({
   "location": "TC01_FacebookHomePageVerify.after()"
 });
 formatter.result({
-  "duration": 1462255227,
+  "duration": 1454953376,
   "status": "passed"
 });
 formatter.after({
-  "duration": 574300,
+  "duration": 169342,
   "status": "passed"
 });
 formatter.scenario({
@@ -111,67 +111,67 @@ formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.before()"
 });
 formatter.result({
-  "duration": 6055377474,
+  "duration": 16485759895,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.main()"
 });
 formatter.result({
-  "duration": 20265403918,
+  "duration": 20339471260,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_disclaimer()"
 });
 formatter.result({
-  "duration": 603379,
+  "duration": 20084534,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.Verify_disclaimer_text()"
 });
 formatter.result({
-  "duration": 10064970819,
+  "duration": 10451393349,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_birthday()"
 });
 formatter.result({
-  "duration": 71414,
+  "duration": 45757,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.Verify_birthday_text()"
 });
 formatter.result({
-  "duration": 10109227897,
+  "duration": 10046462082,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_bottom()"
 });
 formatter.result({
-  "duration": 115886,
+  "duration": 78256,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.Verify_bbottom_text()"
 });
 formatter.result({
-  "duration": 10114615976,
+  "duration": 10053472661,
   "status": "passed"
 });
 formatter.match({
   "location": "TC02_ValidationOfStaticCharacterWise.after()"
 });
 formatter.result({
-  "duration": 3167463617,
+  "duration": 3064942574,
   "status": "passed"
 });
 formatter.after({
-  "duration": 107334,
+  "duration": 104342,
   "status": "passed"
 });
 });
