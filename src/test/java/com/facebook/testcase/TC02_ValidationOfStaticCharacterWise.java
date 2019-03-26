@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.facebook.XpathRepository.XpathRepository;
@@ -93,9 +94,12 @@ public class TC02_ValidationOfStaticCharacterWise {
 
 	@BeforeMethod
 
-	@Given("^Launch the facebook url2$")
-	public void before() {
-		driver = LaunchBrowser.chromeBrowser();
+	@Given("^Launch the facebook url2 \"(.*)\" and \"(.*)\"$")
+	@Parameters({ "url", "log4jPath" })
+
+	public void before(String str, String log) {
+
+		driver = LaunchBrowser.chromeBrowser(str, log);
 		Reporter.log("Useron the home page");
 
 	}

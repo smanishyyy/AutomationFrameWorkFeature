@@ -3,14 +3,14 @@
     "line": 1,
     "elements": [
       {
-        "line": 6,
+        "line": 14,
         "name": "Validation of static text and elemet of facebook page",
         "description": "",
-        "id": "login-feature;validation-of-static-text-and-elemet-of-facebook-page",
+        "id": "login-feature;validation-of-static-text-and-elemet-of-facebook-page;;2",
         "after": [
           {
             "result": {
-              "duration": 169342,
+              "duration": 214668,
               "status": "passed"
             },
             "match": {
@@ -19,23 +19,37 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 24620556809,
+              "duration": 18674810968,
               "status": "passed"
             },
             "line": 7,
-            "name": "Launch the facebook url",
+            "name": "Launch the facebook url \"https://www.facebook.com\" and \"D://Workspace//AutomationDemoMaven//LOG4J.XML\"",
             "match": {
-              "location": "TC01_FacebookHomePageVerify.before()"
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com",
+                  "offset": 25
+                },
+                {
+                  "val": "D://Workspace//AutomationDemoMaven//LOG4J.XML",
+                  "offset": 56
+                }
+              ],
+              "location": "TC01_FacebookHomePageVerify.before(String,String)"
             },
+            "matchedColumns": [
+              0,
+              1
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 24627426270,
+              "duration": 20274159435,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 1454953376,
+              "duration": 1814662136,
               "status": "passed"
             },
             "line": 9,
@@ -60,14 +74,85 @@
         ]
       },
       {
-        "line": 11,
+        "line": 15,
+        "name": "Validation of static text and elemet of facebook page",
+        "description": "",
+        "id": "login-feature;validation-of-static-text-and-elemet-of-facebook-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 115887,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC04_taggedhookstepdef.tearDown2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9755503775,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch the facebook url \"https://www.facebook.com\" and \"D://Workspace//AutomationDemoMaven//LOG4J.XML\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com",
+                  "offset": 25
+                },
+                {
+                  "val": "D://Workspace//AutomationDemoMaven//LOG4J.XML",
+                  "offset": 56
+                }
+              ],
+              "location": "TC01_FacebookHomePageVerify.before(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8526110056,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify if all the elemnet and text is presrnt on the login page",
+            "match": {
+              "location": "TC01_FacebookHomePageVerify.main()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1529014499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "TC01_FacebookHomePageVerify.after()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
         "name": "ValidationOfStaticCharacterWise",
         "description": "",
         "id": "login-feature;validationofstaticcharacterwise",
         "after": [
           {
             "result": {
-              "duration": 104342,
+              "duration": 92368,
               "status": "passed"
             },
             "match": {
@@ -80,22 +165,32 @@
         "steps": [
           {
             "result": {
-              "duration": 16485759895,
+              "duration": 11267083061,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Launch the facebook url2",
+            "line": 19,
+            "name": "Launch the facebook url2 \"https://www.facebook.com\" and \"D://Workspace//AutomationDemoMaven//LOG4J.XML\"",
             "match": {
-              "location": "TC02_ValidationOfStaticCharacterWise.before()"
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com",
+                  "offset": 26
+                },
+                {
+                  "val": "D://Workspace//AutomationDemoMaven//LOG4J.XML",
+                  "offset": 57
+                }
+              ],
+              "location": "TC02_ValidationOfStaticCharacterWise.before(String,String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 20339471260,
+              "duration": 20370573525,
               "status": "passed"
             },
-            "line": 13,
+            "line": 20,
             "name": "check if disclaimer birthday and bottom text element is available",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.main()"
@@ -104,10 +199,10 @@
           },
           {
             "result": {
-              "duration": 20084534,
+              "duration": 1113113,
               "status": "passed"
             },
-            "line": 14,
+            "line": 21,
             "name": "Pass the input text of disclaimer",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_disclaimer()"
@@ -116,10 +211,10 @@
           },
           {
             "result": {
-              "duration": 10451393349,
+              "duration": 10211617688,
               "status": "passed"
             },
-            "line": 15,
+            "line": 22,
             "name": "verify if disclaimer text on application is same as passed in input",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.Verify_disclaimer_text()"
@@ -128,10 +223,10 @@
           },
           {
             "result": {
-              "duration": 45757,
+              "duration": 56019,
               "status": "passed"
             },
-            "line": 16,
+            "line": 23,
             "name": "Pass the input text of birthday",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_birthday()"
@@ -140,10 +235,10 @@
           },
           {
             "result": {
-              "duration": 10046462082,
+              "duration": 10100271715,
               "status": "passed"
             },
-            "line": 17,
+            "line": 24,
             "name": "verify if birthday text on application is same as passed in input",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.Verify_birthday_text()"
@@ -152,10 +247,10 @@
           },
           {
             "result": {
-              "duration": 78256,
+              "duration": 44473,
               "status": "passed"
             },
-            "line": 18,
+            "line": 25,
             "name": "Pass the input text of bottom text",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.Pass__input_text_bottom()"
@@ -164,10 +259,10 @@
           },
           {
             "result": {
-              "duration": 10053472661,
+              "duration": 10275947343,
               "status": "passed"
             },
-            "line": 19,
+            "line": 26,
             "name": "verify if bottom text on application is same as passed in input",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.Verify_bbottom_text()"
@@ -176,10 +271,10 @@
           },
           {
             "result": {
-              "duration": 3064942574,
+              "duration": 2888976030,
               "status": "passed"
             },
-            "line": 20,
+            "line": 27,
             "name": "close the browserr",
             "match": {
               "location": "TC02_ValidationOfStaticCharacterWise.after()"

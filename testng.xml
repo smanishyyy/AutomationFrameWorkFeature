@@ -3,14 +3,16 @@
 <suite thread-count="1" verbose="1" name="Suite"  >
 <test thread-count="3" name="Test" >
   
+<parameter name="url" value="https://www.facebook.com"></parameter>
+<parameter name="email" value="manish.chaurasia@yahoo.in"></parameter>
+<parameter name="log4jPath" value="D://Workspace//AutomationDemoMaven//LOG4J.XML"></parameter>
+<parameter name="DriverPath" value="D:/Software/eclipse-java-luna-SR2-win32-x86_64/eclipse/chromedriver.exe"></parameter>
 
 
     <classes>
-   
-  
-  <!--  class name="com.facebook.testcase.TC01_FacebookHomePageVerify"/> -->
+   <class name="com.facebook.testcase.TC01_FacebookHomePageVerify"/>
   <!--  class name="com.facebook.testcase.TC02_ValidationOfStaticCharacterWise"/>-->
-  <class name="TestNgConcept.Assert"/>
+  <!--  class name="TestNgConcept.Assert"/>-->
   
     </classes>
   </test> <!-- Test -->
